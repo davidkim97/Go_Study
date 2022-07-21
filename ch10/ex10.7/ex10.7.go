@@ -7,6 +7,7 @@ func getMyAge() int {
 }
 
 func main() {
+	// age 변수 선언 및 초기화
 	switch age := getMyAge(); true {
 	case age < 10:
 		fmt.Println("Child")
@@ -15,6 +16,6 @@ func main() {
 	case age < 30:
 		fmt.Println("20s")
 	default:
-		fmt.Println("My age is ", age)
+		fmt.Println("My age is ", age) // age 값 사용
 	}
 }
